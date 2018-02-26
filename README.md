@@ -1,4 +1,4 @@
-# Presentation for Web3D 2017
+# Presentation for AR Workshop at HRI 2018
 
 Uses [reveal.js](https://travis-ci.org/hakimel/reveal.js), [webxr.js](http://github.com/mozilla/webxr-polyfill) and [three.js](http://threejs.org)
 

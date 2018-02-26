@@ -1,8 +1,8 @@
 {
-  "name": "ismar-2017",
+  "name": "hri-ar-workshop-2018",
   "version": "1.0.0",
   "description": "HTML/AR Presentation",
-  "homepage": "https://blairmacintyre.github.io/ismar-2017",
+  "homepage": "https://blairmacintyre.github.io/hri-ar-workshop-2018",
   "scripts": {
     "starthttp": "grunt serve",
     "start": "grunt --gruntfile Gruntfile-https.js serve"
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/blairmacintyre/ismar-2017.git"
+    "url": "git://github.com/blairmacintyre/hri-ar-workshop-2018.git"
   },
   "engines": {
     "node": "~4.1.1"
