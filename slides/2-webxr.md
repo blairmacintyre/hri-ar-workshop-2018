@@ -7,43 +7,12 @@
 <!-- NOTES -->
 
 ------
-<!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
-
-<div class="captioned-image-row">
-  <div>
-    <img class="plain" data-src="media/img/webvr.png">
-    <i>Tech:<br> WebVR</i>
-  </div>
-</div>
-------
 
 <!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
 
-<div class="image-row">
-  <div><img class="plain" data-src="media/img/google-cardboard.png"></div>
-  <div><img class="plain" data-src="media/img/google-daydream.png"></div>
-  <div><img class="plain" data-src="media/img/samsung-gearvr.png"></div>
-</div>
+# WebXR = WebVR ++
 
-<div class="image-row">
-  <div><img class="plain" data-src="media/img/oculus-rift.png"></div>
-  <div><img class="plain" data-src="media/img/playstation-vr.png"></div>
-  <div><img class="plain" data-src="media/img/htc-vive.png"></div>
-</div>
-
-<!-- NOTES -->
-- Backed by the largest corporations in the world, everyone wants in
-- Range from cheap to expensive, tethered and untethered, controllers, tracking
-- HTC Vive with Steam currently offers the most compelling experiences, but never know
-- See a lot of different devices, systems, platforms competing against each other...
-
-------
-
-<!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
-
-# WebVR
-
-An open virtual reality platform with the advantages of **the Web**
+An open platform for VR and AR with the advantages of **the Web**
 
 <div class="captioned-image-row">
   <div>
@@ -153,10 +122,69 @@ https://webvr.rocks
 ------
 <!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
 
+<div class="image-row">
+  <div><img class="plain" data-src="media/img/google-cardboard.png"></div>
+  <div><img class="plain" data-src="media/img/google-daydream.png"></div>
+  <div><img class="plain" data-src="media/img/samsung-gearvr.png"></div>
+</div>
+
+<div class="image-row">
+  <div><img class="plain" data-src="media/img/oculus-rift.png"></div>
+  <div><img class="plain" data-src="media/img/playstation-vr.png"></div>
+  <div><img class="plain" data-src="media/img/htc-vive.png"></div>
+</div>
+
+<!-- NOTES -->
+- Backed by the largest corporations in the world, everyone wants in
+- Range from cheap to expensive, tethered and untethered, controllers, tracking
+- HTC Vive with Steam currently offers the most compelling experiences, but never know
+- See a lot of different devices, systems, platforms competing against each other...
+
+------
+
+<!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
+
+<div class="image-row">
+  <div><img class="plain" data-src="resources/textures/ardisplay-hololens-circ.png"></div>
+  <div><img class="plain" data-src="resources/textures/ardisplay-daqri-circ.png"></div>
+  <div><img class="plain" data-src="resources/textures/ardisplay-odg-circ.png"></div>
+  <div><img class="plain" data-src="resources/textures/ardisplay-meta-circ.png"></div>
+</div>
+<div class="image-row">
+  <div><img class="plain" data-src="resources/textures/ardisplay-vuzix-circ.png"></div>
+  <div><img class="plain" data-src="resources/textures/lenovo-phab2-lowes-circ.png"></div>
+  <div><img class="plain" data-src="resources/textures/iphone7plus-circ.png"></div>
+  <div><img class="plain" data-src="resources/textures/ardisplay-magicleap-circ.png"></div>
+
+<!-- NOTES -->
+
+------
+
+<!-- .slide: data-background-video="resources/videos/Unboring.net-Progressive-Enhancement.mp4" -->
+
+<h2>Decouple from Platform, but Still Leverage Unique Capabilities of Each Platform!</h2>
+<br>
+<br>
+<br>	
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<blockquote style="background: rgba(32, 32, 32, 0.5);">
+    <span><a href="https://unboring.net/workflows/progressive-enhancement/">unboring.net/workflows/progressive-enhancement/</a>
+    </span>
+</blockquote>
+    
+------
+<!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
+
 <div class="captioned-image-row">
   <div>
     <img class="plain" data-src="resources/textures/arShadows-circ.png">
-    <i>Tech:<br> WebAR</i>
+    <i>AR in WebXR</i>
   </div>
 </div>
 
@@ -181,23 +209,6 @@ https://webvr.rocks
     <span class="green">, _in real-time_</span>
 </blockquote>
 
-------
-
-<!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
-
-<div class="image-row">
-  <div><img class="plain" data-src="resources/textures/ardisplay-hololens-circ.png"></div>
-  <div><img class="plain" data-src="resources/textures/ardisplay-daqri-circ.png"></div>
-  <div><img class="plain" data-src="resources/textures/ardisplay-odg-circ.png"></div>
-  <div><img class="plain" data-src="resources/textures/ardisplay-meta-circ.png"></div>
-</div>
-<div class="image-row">
-  <div><img class="plain" data-src="resources/textures/ardisplay-vuzix-circ.png"></div>
-  <div><img class="plain" data-src="resources/textures/lenovo-phab2-lowes-circ.png"></div>
-  <div><img class="plain" data-src="resources/textures/iphone7plus-circ.png"></div>
-  <div><img class="plain" data-src="resources/textures/ardisplay-magicleap-circ.png"></div>
-
-<!-- NOTES -->
 
 ------
 
@@ -239,26 +250,7 @@ https://webvr.rocks
 <p><small>Julian Oliver "Levelhead" 2008</small></p>
 
 
-------
 
-<!-- .slide: data-background-video="resources/videos/Unboring.net-Progressive-Enhancement.mp4" -->
-
-<h2>Decouple from Platform, but Still Leverage Unique Capabilities of Each Platform!</h2>
-<br>
-<br>
-<br>	
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<blockquote style="background: rgba(32, 32, 32, 0.5);">
-    <span><a href="https://unboring.net/workflows/progressive-enhancement/">unboring.net/workflows/progressive-enhancement/</a>
-    </span>
-</blockquote>
-    
 ------
 
 <!-- .slide: data-background-video="resources/videos/tango-cat-trim.m4v" -->

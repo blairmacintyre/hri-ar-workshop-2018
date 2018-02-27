@@ -57,6 +57,9 @@ export default class FlatDisplay extends XRDisplay {
 				this._arKitWrapper = ARKitWrapper.GetOrCreate()
 				this._arKitWrapper.addEventListener(ARKitWrapper.INIT_EVENT, this._handleARKitInit.bind(this))
 				this._arKitWrapper.addEventListener(ARKitWrapper.WATCH_EVENT, this._handleARKitUpdate.bind(this))
+				this._arKitWrapper.addEventListener(ARKitWrapper.WINDOW_RESIZE_EVENT, this._handleARKitWindowResize.bind(this))
+				this._arKitWrapper.addEventListener(ARKitWrapper.ON_ERROR, this._handleOnError.bind(this))
+				this._arKitWrapper.addEventListener(ARKitWrapper.AR_TRACKING_CHANGED, this._handleArTrackingChanged.bind(this))
 				this._arKitWrapper.waitForInit().then(() => {
 					this._arKitWrapper.watch()
 				})
@@ -89,16 +92,19 @@ export default class FlatDisplay extends XRDisplay {
 	FlatDisplay just adds the layer's canvas to DOM elements created by the XR polyfill
 	*/
 	_handleNewBaseLayer(baseLayer){
+		this.baseLayer = baseLayer;
 		baseLayer._context.canvas.style.width = "100%";
 		baseLayer._context.canvas.style.height = "100%";
-		baseLayer._context.canvas.width = this._xr._sessionEls.clientWidth;
-		baseLayer._context.canvas.height = this._xr._sessionEls.clientHeight;
+		baseLayer.framebufferWidth = this._xr._sessionEls.clientWidth;
+		baseLayer.framebufferHeight = this._xr._sessionEls.clientHeight;
 
-		// TODO:  Need to remove this listener if a new base layer is set
-		window.addEventListener('resize', () => {
-			baseLayer.framebufferWidth = baseLayer._context.canvas.clientWidth;
-			baseLayer.framebufferHeight = baseLayer._context.canvas.clientHeight;
-		}, false)
+		if (this._arKitWrapper === null) {
+			// TODO:  Need to remove this listener if a new base layer is set
+			window.addEventListener('resize', () => {
+				baseLayer.framebufferWidth = baseLayer._context.canvas.clientWidth;
+				baseLayer.framebufferHeight = baseLayer._context.canvas.clientHeight;
+			}, false)	
+		}
 
 		this._xr._sessionEls.appendChild(baseLayer._context.canvas)
 	}
@@ -160,6 +166,28 @@ export default class FlatDisplay extends XRDisplay {
 				light_intensity: true
 			})
 		}, 1000)
+	}
+
+	_handleARKitWindowResize(ev){
+		this.baseLayer.framebufferWidth = ev.detail.width;
+		this.baseLayer.framebufferHeight = ev.detail.height;
+	}
+
+	_handleOnError(ev){
+		//"domain": "error domain",
+		//"code": 1234,
+		//"message": "error message"
+		// Ex: > {code: 3, message: "error.localizedDescription", domain: "error.domain"}
+	}
+
+	_handleArTrackingChanged(ev){
+		// ev.detail values
+		// #define WEB_AR_TRACKING_STATE_NORMAL               @"ar_tracking_normal"
+		// #define WEB_AR_TRACKING_STATE_LIMITED              @"ar_tracking_limited"
+		// #define WEB_AR_TRACKING_STATE_LIMITED_INITIALIZING @"ar_tracking_limited_initializing"
+		// #define WEB_AR_TRACKING_STATE_LIMITED_MOTION       @"ar_tracking_limited_excessive_motion"
+		// #define WEB_AR_TRACKING_STATE_LIMITED_FEATURES     @"ar_tracking_limited_insufficient_features"
+		// #define WEB_AR_TRACKING_STATE_NOT_AVAILABLE        @"ar_tracking_not_available"
 	}
 
 	_createSession(parameters){
