@@ -69,6 +69,30 @@ Transition:
 <!-- NOTES -->
 
 ------
+<!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
+
+# Let's start with VR
+
+<div class="image-row">
+  <div><img class="plain" data-src="media/img/google-cardboard.png"></div>
+  <div><img class="plain" data-src="media/img/google-daydream.png"></div>
+  <div><img class="plain" data-src="media/img/samsung-gearvr.png"></div>
+</div>
+
+<div class="image-row">
+  <div><img class="plain" data-src="media/img/oculus-rift.png"></div>
+  <div><img class="plain" data-src="media/img/playstation-vr.png"></div>
+  <div><img class="plain" data-src="media/img/htc-vive.png"></div>
+</div>
+
+<!-- NOTES -->
+- Backed by the largest corporations in the world, everyone wants in
+- Range from cheap to expensive, tethered and untethered, controllers, tracking
+- HTC Vive with Steam currently offers the most compelling experiences, but never know
+- See a lot of different devices, systems, platforms competing against each other...
+
+
+------
 
 <!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
 
@@ -77,7 +101,7 @@ Transition:
 Browser APIs that enable WebGL rendering to headsets and access to VR
 sensors
 
-https://w3c.github.io/webvr/
+https://immersive-web.github.io/webvr/
 
 <!-- NOTES -->
 API:
@@ -92,6 +116,7 @@ History:
 Not just a specification, it's implemented...
 
 ------
+
 
 <!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
 
@@ -138,28 +163,6 @@ https://webvr.rocks
 - With all the browsers behind it...
 
 ------
-<!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
-
-<div class="image-row">
-  <div><img class="plain" data-src="media/img/google-cardboard.png"></div>
-  <div><img class="plain" data-src="media/img/google-daydream.png"></div>
-  <div><img class="plain" data-src="media/img/samsung-gearvr.png"></div>
-</div>
-
-<div class="image-row">
-  <div><img class="plain" data-src="media/img/oculus-rift.png"></div>
-  <div><img class="plain" data-src="media/img/playstation-vr.png"></div>
-  <div><img class="plain" data-src="media/img/htc-vive.png"></div>
-</div>
-
-<!-- NOTES -->
-- Backed by the largest corporations in the world, everyone wants in
-- Range from cheap to expensive, tethered and untethered, controllers, tracking
-- HTC Vive with Steam currently offers the most compelling experiences, but never know
-- See a lot of different devices, systems, platforms competing against each other...
-
-
-------
 <!-- .slide: data-background="resources/textures/caniuse.png" data-background-size="contain" data-background-repeat="no-repeat" -->
 <blockquote style="background: rgba(32, 32, 32, 0.5);">
 WebVR support available on all platforms from at least one major browser (Vive, Rift, Daydream, WindowsMR, etc)
@@ -185,9 +188,27 @@ WebVR support available on all platforms from at least one major browser (Vive, 
 <div class="captioned-image-row">
   <div>
     <img class="plain" data-src="resources/textures/arShadows-circ.png">
-    <i>WebXR adds AR to WebXR</i>
+    <i>WebXR adds AR to WebVR</i>
   </div>
 </div>
+
+------
+
+<!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
+
+<div class="image-row">
+  <div><img class="plain" data-src="resources/textures/ardisplay-hololens-circ.png"></div>
+  <div><img class="plain" data-src="resources/textures/ardisplay-daqri-circ.png"></div>
+  <div><img class="plain" data-src="resources/textures/ardisplay-odg-circ.png"></div>
+  <div><img class="plain" data-src="resources/textures/ardisplay-meta-circ.png"></div>
+</div>
+<div class="image-row">
+  <div><img class="plain" data-src="resources/textures/ardisplay-vuzix-circ.png"></div>
+  <div><img class="plain" data-src="resources/textures/lenovo-phab2-lowes-circ.png"></div>
+  <div><img class="plain" data-src="resources/textures/iphone7plus-circ.png"></div>
+  <div><img class="plain" data-src="resources/textures/ardisplay-magic-leap-goggles-circ.png"></div>
+
+<!-- NOTES -->
 
 ------
 <!-- .slide: data-background-video="resources/videos/shadow-movie4-720p.mov" -->
@@ -318,6 +339,36 @@ WebVR support available on all platforms from at least one major browser (Vive, 
 <p>Leverage Native Tech: ARKit, ARCore, various HMDs, Vision SDKs, ...</p>
 <p>Enable Web-Based AR Tech: computer vision, sensor fusion, geospatial data, ...</p>
 
+------
+<!-- .slide: data-background="resources/textures/social-mr-blog-v2-min.gif" -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<blockquote style="background: rgba(32, 32, 32, 0.5);">
+<h2> Social and Multiuser</h2>
+</blockquote>
+------
+<!-- .slide: data-background="resources/videos/playcanvas-scene-1080p.mp4" -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<blockquote style="background: rgba(32, 32, 32, 0.5);">
+<h2>High Performance Graphics with WebGL2</h2>
+</blockquote>
 
 ------
 <!-- .slide: data-background="resources/textures/iss-ar.png" -->
@@ -336,6 +387,64 @@ WebVR support available on all platforms from at least one major browser (Vive, 
 <blockquote style="background: rgba(32, 32, 32, 0.5);">
     <span><em>ISS Maintenance using PRIDE w/ Traclabs</em></span>
 </blockquote>
+
+------
+
+<!-- .slide: data-background="media/img/aframe.jpg" -->
+<div style="background: rgba(32, 32, 32, 0.5);">
+    <h2>Frameworks like AFrame Integrate MR with Everything</h1>
+
+  <div class="captioned-image-row">
+    <div>
+      <img class="plain" data-src="media/img/d3.png">
+      <i>d3.js</i>
+    </div>
+    <div>
+      <img class="plain" data-src="media/img/vue.png">
+      <i>Vue.js</i>
+    </div>
+    <div>
+      <img class="plain" data-src="media/img/react.png">
+      <i>React</i>
+    </div>
+    <div>
+      <img class="plain" data-src="media/img/redux.png">
+      <i>Redux</i>
+    </div>
+    <div>
+      <img class="plain" data-src="media/img/jquery.png">
+      <i>jQuery</i>
+    </div>
+    <div>
+      <img class="plain" data-src="media/img/angular.png">
+      <i>Angular</i>
+    </div>
+  </div>
+</div>
+
+------
+<!-- .slide: data-state="xrslide vrslide" -->
+
+## This Presentation is Running in our WebXR Viewer</h2>
+<p><em>on an iPhone</em></p>
+<p>Using webxr.js + reveal.js + three.js</p>
+
+
+------
+<!-- .slide: data-state="xrslide vrslide boombox" style="text-align: left; top: 0px;" -->
+
+<h2>VR</h2>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ------
 
@@ -369,3 +478,5 @@ WebVR support available on all platforms from at least one major browser (Vive, 
 <br>
 <br>
 <br>
+
+------

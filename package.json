@@ -1,7 +1,7 @@
 {
   "name": "hri-ar-workshop-2018",
   "version": "1.0.0",
-  "description": "HTML/AR Presentation",
+  "description": "HRI MR Workshop 2018: Making the Hidden Visible",
   "homepage": "https://blairmacintyre.github.io/hri-ar-workshop-2018",
   "scripts": {
     "starthttp": "grunt serve",

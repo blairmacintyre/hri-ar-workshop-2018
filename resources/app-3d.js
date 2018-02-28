@@ -25,7 +25,7 @@ class PageApp extends XRExampleBase {
         loader.load('./resources/webxr/examples/models/female02/Female02_bin.js', geometry => {
             this.femaleGeometry = geometry
             this.geometries.push(this.femaleGeometry)
-            this.floorGroup.add(this.createSceneGraphNode())
+            //this.floorGroup.add(this.createSceneGraphNode())
         })
         loader.load('./resources/webxr/examples/models/male02/Male02_bin.js', geometry => {
             this.maleGeometry = geometry
