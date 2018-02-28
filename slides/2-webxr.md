@@ -355,7 +355,7 @@ WebVR support available on all platforms from at least one major browser (Vive, 
 <h2> Social and Multiuser</h2>
 </blockquote>
 ------
-<!-- .slide: data-background="resources/videos/playcanvas-scene-1080p.mp4" -->
+<!-- .slide: data-background-video="resources/videos/playcanvas-scene-1080p.mp4" -->
 <br>
 <br>
 <br>
@@ -367,7 +367,7 @@ WebVR support available on all platforms from at least one major browser (Vive, 
 <br>
 <br>
 <blockquote style="background: rgba(32, 32, 32, 0.5);">
-<h2>High Performance Graphics with WebGL2</h2>
+<h3>High Performance Graphics with WebGL2</h3>
 </blockquote>
 
 ------

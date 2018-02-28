@@ -20,6 +20,11 @@
 <p>Robot platform delivers it's own UI, coupled with it's knowledge of world</p>
 
 ------
+
+# Thank you
+
+------
+
 <!-- .slide: data-background="resources/textures/background-radial.jpeg" style="text-align: left;" -->
 
 <h2>AR + Web + Robots!</h2>
