@@ -1,16 +1,14 @@
-<!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
-
-<img src="resources/textures/HDP-eyes.png" height="300">
-<img src="resources/textures/volcano-fever.png" height="300">
-
+<!-- .slide: data-background="resources/textures/fast-for-good.png" data-background-size="contain" data-background-repeat="no-repeat" -->
 
 <!-- NOTES -->
+I'm at mozilla, why?
+
 
 ------
 
 <!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
 
-# WebXR = WebVR ++
+# WebXR 
 
 An open platform for VR and AR with the advantages of **the Web**
 
@@ -30,6 +28,16 @@ An open platform for VR and AR with the advantages of **the Web**
 </div>
 
 <!-- NOTES -->
+Open, accessible, and secure
+“Just a URL”
+Security and privacy in browser, not app
+Every device has a browser
+Integrates with existing web services, content, and development team
+No app store gatekeepers or one-off IT infrastructure
+Immediate publishing/iteration without app store review
+
+
+
 WebVR is...virtual reality in the browser, powered by the Internet
 
 Open:
@@ -49,6 +57,16 @@ Transition:
 - Web has advantages that make it the best platform for the people
 - Need to act to make it reality, can't wait for VR to bake and crystallize
 - Get involved
+
+------
+
+<!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
+
+<img src="resources/textures/HDP-eyes.png" height="300">
+<img src="resources/textures/volcano-fever.png" height="300">
+
+
+<!-- NOTES -->
 
 ------
 
@@ -140,51 +158,34 @@ https://webvr.rocks
 - HTC Vive with Steam currently offers the most compelling experiences, but never know
 - See a lot of different devices, systems, platforms competing against each other...
 
-------
-
-<!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
-
-<div class="image-row">
-  <div><img class="plain" data-src="resources/textures/ardisplay-hololens-circ.png"></div>
-  <div><img class="plain" data-src="resources/textures/ardisplay-daqri-circ.png"></div>
-  <div><img class="plain" data-src="resources/textures/ardisplay-odg-circ.png"></div>
-  <div><img class="plain" data-src="resources/textures/ardisplay-meta-circ.png"></div>
-</div>
-<div class="image-row">
-  <div><img class="plain" data-src="resources/textures/ardisplay-vuzix-circ.png"></div>
-  <div><img class="plain" data-src="resources/textures/lenovo-phab2-lowes-circ.png"></div>
-  <div><img class="plain" data-src="resources/textures/iphone7plus-circ.png"></div>
-  <div><img class="plain" data-src="resources/textures/ardisplay-magicleap-circ.png"></div>
-
-<!-- NOTES -->
 
 ------
-
-<!-- .slide: data-background-video="resources/videos/Unboring.net-Progressive-Enhancement.mp4" -->
-
-<h2>Decouple from Platform, but Still Leverage Unique Capabilities of Each Platform!</h2>
-<br>
-<br>
-<br>	
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<!-- .slide: data-background="resources/textures/caniuse.png" data-background-size="contain" data-background-repeat="no-repeat" -->
 <blockquote style="background: rgba(32, 32, 32, 0.5);">
-    <span><a href="https://unboring.net/workflows/progressive-enhancement/">unboring.net/workflows/progressive-enhancement/</a>
-    </span>
+WebVR support available on all platforms from at least one major browser (Vive, Rift, Daydream, WindowsMR, etc)
 </blockquote>
-    
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ------
 <!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
 
 <div class="captioned-image-row">
   <div>
     <img class="plain" data-src="resources/textures/arShadows-circ.png">
-    <i>AR in WebXR</i>
+    <i>WebXR adds AR to WebXR</i>
   </div>
 </div>
 
@@ -203,10 +204,11 @@ https://webvr.rocks
 <br>
 <br>
 <blockquote style="background: rgba(32, 32, 32, 0.5);">
-    Mixing media with a <br>
+    It will finally be possible to mix media with a <br>
     person's perception of the world<br>
     <span class="green">_registered in 3D_</span>
-    <span class="green">, _in real-time_</span>
+    <span class="green">, _in real-time_</span>,<br>
+    <span>_in a commodity web browser_</span>
 </blockquote>
 
 
@@ -214,7 +216,7 @@ https://webvr.rocks
 
 <!-- .slide: data-background-video="resources/videos/arjs-hole.mp4" -->
 
-<h2>Simple AR Has Been Possible for A While</h2>
+<h2>Folks Have Done Simple AR on the Web</h2>
 <p>WebRTC <span class="green">getUserMedia</span> + JS tracking</p><br>
 <br>
 <br><br>
@@ -239,7 +241,7 @@ https://webvr.rocks
 <br>
 <br>
 <br>
-<h1>In the Long Run, This Simple Approach Will Not Be Enough</h1>
+<h1>This Simple Approach is Insufficient</h1>
 <blockquote style="background: rgba(32, 32, 32, 0.5);">
     <span><h3>Very Little World Knowledge,<br>
     Tightly Coupled to Specific Technology,<br>
@@ -293,7 +295,7 @@ https://webvr.rocks
 
 <div style="background: rgba(32, 32, 32, 0.5);">
 
-<h1>Decouple Apps from "Reality"</h1>
+<h1>AR Tech in the Browser, AR Apps Inside</h1>
 
 <p>A "webby" approach to AR must</p>
 
@@ -311,116 +313,11 @@ https://webvr.rocks
 <!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
 
 
-<h2>Exploring This Approach This Year</h1>
+<h2>Adding AR to WebXR this Year</h1>
 <p>Build on Advanced Web Tech: WebVR, Servo, WebAssembly, ...</p>
-<p>Leverage Native Tech: Tango, Windows Holographic, Vision SDKs, ...</p>
-<p>Create new Web Tech: computer vision, sensor fusion, geospatial data, ...</p>
+<p>Leverage Native Tech: ARKit, ARCore, various HMDs, Vision SDKs, ...</p>
+<p>Enable Web-Based AR Tech: computer vision, sensor fusion, geospatial data, ...</p>
 
-------
-<!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
-
-<div class="captioned-image-row">
-  <div>
-    <img class="plain" data-src="media/img/webvr.png">
-    <i>Tech:<br> WebVR</i>
-  </div>
-  <div>
-    <img class="plain" data-src="resources/textures/arShadows-circ.png">
-    <i>Tech:<br> WebAR</i>
-  </div>
-  <div>
-    <img class="plain" data-src="resources/textures/argon-icon-circ.png">
-    <i>Framework:<br> argon.js</i>
-  </div>
-  <div>
-    <img class="plain" data-src="media/img/aframe-logo-rendered.png">
-    <i>Authoring:<br>AFrame</i>
-  </div>
-  <div>
-    <img class="plain" data-src="resources/textures/paideia-circ.png">
-    <i>Example</i>
-  </div>
-
-</div>
-
-------
-<!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
-
-<div class="captioned-image-row">
-  <div>
-    <img class="plain" data-src="media/img/aframe-logo-rendered.png">
-    <i>Authoring:<br>AFrame, etc</i>
-  </div>
-
-</div>
-
-------
-
-<!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
-
-<h2>argon.js is just a framework</h2>
-<p class="green">Used argon.js and aframe.js to add AR to this reveal.js presentation</p>
-<p>Add argon and aframe scripts up top</p>
-<pre><code class="HTML" data-trim contenteditable>
-&lt;script src="resources/js/aframe.js"&gt; &lt;/script&gt; 
-&lt;script src="resources/js/argon.js"&gt; &lt;/script&gt;
-&lt;script src="resources/js/argon-aframe.js"&gt; &lt;/script&gt; 
-</code></pre>
-<p>Add a simple AFrame scene down below</p>
-<pre><code class="HTML" data-trim contenteditable>
-&lt;ar-scene&gt;
-  ...
-&lt;/ar-scene&gt;
-</code></pre>
-<p>Adjust the CSS a bit, add some Javascript and we're off...</p>
-
----
-
-<!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
-<h2>Simple Declarative 3D AR Content</h2>
-<pre><code class="HTML" data-trim contenteditable>
-&lt;a-box position="0 3 -10" radius="0.25" color="gold" rotation="0 0 45"&gt;
-  &lt;a-animation attribute="rotation" from="0 0 45" to="0 360 45" 
-    dur="1000" easing="ease-in-out" repeat="indefinite"&gt;
-  &lt;/a-animation&gt;
-&lt;/a-box&gt;
-</code></pre>
-<p>A-Frame markup to create a spinning gold diamond</p>
-
----
-
-<!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
-<h2>Geospatial frames of reference</h2>
-<pre><code class="HTML" data-trim contenteditable>
-&lt;ar-geopose id="GT" lla="-84.39453 33.77250" userotation="false"&gt;
-  &lt;a-entity fixedsize="20" billboard&gt;
-    &lt;a-plane rotation="0 0 0" width="2.9" height="4" 
-      src="#buzzpin" transparent="true" &gt;&lt;/a-plane&gt;
-    &lt;a-entity css-object="div: #gtdiv" scale="0.02 0.02 0.02" position="0 4 0"
-      showdistance="Tech Tower @ GT&lt;br&gt;Atlanta, GA&lt;br&gt;It is "&gt;
-    &lt;/a-entity&gt;
-  &lt;/a-entity&gt;
-&lt;/ar-geopose&gt;
-</code></pre>
-<p>A-Frame markup to put a pin at Georgia Tech</p>
-
----
-
-<!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
-<h2>Simple Vuforia Setup and Use</h2>
-<pre><code class="HTML" data-trim contenteditable>
-&lt;ar-scene vuforiakey="#vuforiakey"
-      vuforiadataset__stonesandchips="src:url(StonesAndChips.xml);"&gt;
-  &lt;a-assets&gt;
-    &lt;a-asset-item id="vuforiakey" src="resources/key.txt"&gt;&lt;/a-asset-item&gt;
-  &lt;/a-assets&gt;
-  &lt;ar-frame id="frame" trackvisibility="true" visible="false"
-    parent="vuforia.stonesandchips.stones"&gt;
-      ...
-  &lt;/ar-frame&gt;
-&lt;/ar-scene&gt;
-</code></pre>
-<p>A-Frame markup to put content on a visual target</p>
 
 ------
 <!-- .slide: data-background="resources/textures/iss-ar.png" -->
