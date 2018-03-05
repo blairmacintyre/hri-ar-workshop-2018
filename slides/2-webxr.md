@@ -279,11 +279,7 @@ The Washington Post
 
 ------
 
-<!-- .slide: data-background="media/img/math.gif" -->
-
-# Mathematics - *MathworldVR*
-
-@sleighdogs
+<!-- .slide: data-background="media/img/scene-collage.jpg" -->
 
 ------
 <!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
