@@ -233,6 +233,15 @@ WebVR support available on all platforms from at least one major browser (Vive, 
 </div>
 ---
 <!-- .slide: data-background="media/img/cadavr.gif" -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # Education - *CadaVR*
 
@@ -240,7 +249,15 @@ WebVR support available on all platforms from at least one major browser (Vive, 
 
 ---
 <!-- .slide: data-background="media/img/syria.gif" -->
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 # Journalism - *Fear of the Sky*
 
 Amnesty International UK
@@ -248,6 +265,15 @@ Amnesty International UK
 ---
 
 <!-- .slide: data-background="media/img/mars.jpg" -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # Journalism - *Journey to Mars*
 
@@ -260,6 +286,15 @@ The Washington Post
 # Data Visualization - *Adit*
 
 @datatitian
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ---
 
@@ -268,10 +303,31 @@ The Washington Post
 # Gaming - *A-Blast*
 
 @mozillavr
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ---
 
 <!-- .slide: data-background="media/img/math.gif" -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # Mathematics - *MathworldVR*
 
@@ -456,7 +512,8 @@ The Washington Post
 <br>
 <blockquote style="background: rgba(32, 32, 32, 0.5);">
 <h3>Experiment with XR capabilities in Servo</h3>
-<em>2D DOM content in 3D, XR Browser, XR extensions for CV, ... </em>
+<em>2D DOM content in 3D, mixed 2D/3D apps</em>
+<p><em>XR extensions for CV</em></p>
 </blockquote>
 ------
 <!-- .slide: data-background-video="resources/videos/playcanvas-scene-1080p.mp4" -->
@@ -472,7 +529,8 @@ The Washington Post
 <br>
 <blockquote style="background: rgba(32, 32, 32, 0.5);">
 <h3>High Performance Graphics with WebGL2</h3>
-<em>Playcanvas demo, iMac, Firefox</em>
+<em>(here: Playcanvas demo, iMac, Firefox)</em>
+<p><em>Experimenting with Vulcan, WebGL extensions, next-gen Web GPU</em></p> 
 </blockquote>
 ------
 <!-- .slide: data-background="resources/textures/social-mr-blog-v2-min.gif" -->
@@ -485,10 +543,10 @@ The Washington Post
 <br>
 <br>
 <br>
-<br>
 <blockquote style="background: rgba(32, 32, 32, 0.5);">
-<h3>Social and Multiuser</h3>
-<em>Services to support drop-in multi-user social experiences<br>with voice/avatars/etc</em>
+<h3>Social, Multiuser</h3>
+<em>WebRTC-based services for multi-user social experiences<br>with voice, avatars, shared-screens, etc.</em>
+<p><em>Secure support for telepresense and mixed AR/VR systems</em></p>
 </blockquote>
 
 ------
