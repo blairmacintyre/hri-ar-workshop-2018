@@ -198,6 +198,94 @@ WebVR support available on all platforms from at least one major browser (Vive, 
 <br>
 
 ------
+
+
+<!-- .slide: data-background="media/img/aframe.jpg" -->
+<div style="background: rgba(32, 32, 32, 0.5);">
+    <h2>Frameworks like AFrame Integrate VR with Web Tools</h1>
+
+  <div class="captioned-image-row">
+    <div>
+      <img class="plain" data-src="media/img/d3.png">
+      <i>d3.js</i>
+    </div>
+    <div>
+      <img class="plain" data-src="media/img/vue.png">
+      <i>Vue.js</i>
+    </div>
+    <div>
+      <img class="plain" data-src="media/img/react.png">
+      <i>React</i>
+    </div>
+    <div>
+      <img class="plain" data-src="media/img/redux.png">
+      <i>Redux</i>
+    </div>
+    <div>
+      <img class="plain" data-src="media/img/jquery.png">
+      <i>jQuery</i>
+    </div>
+    <div>
+      <img class="plain" data-src="media/img/angular.png">
+      <i>Angular</i>
+    </div>
+  </div>
+</div>
+---
+<!-- .slide: data-background="media/img/cadavr.gif" -->
+
+# Education - *CadaVR*
+
+@drryanjames
+
+---
+<!-- .slide: data-background="media/img/syria.gif" -->
+
+# Journalism - *Fear of the Sky*
+
+Amnesty International UK
+
+---
+
+<!-- .slide: data-background="media/img/mars.jpg" -->
+
+# Journalism - *Journey to Mars*
+
+The Washington Post
+
+---
+
+<!-- .slide: data-background="media/img/adit.gif" -->
+
+# Data Visualization - *Adit*
+
+@datatitian
+
+---
+
+<!-- .slide: data-background="media/img/a-blast.gif" -->
+
+# Gaming - *A-Blast*
+
+@mozillavr
+
+---
+
+<!-- .slide: data-background="media/img/math.gif" -->
+
+# Mathematics - *MathworldVR*
+
+@sleighdogs
+
+------
+
+<!-- .slide: data-background="media/img/math.gif" -->
+
+# Mathematics - *MathworldVR*
+
+@sleighdogs
+
+------
 <!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
 
 <div class="captioned-image-row">
@@ -423,39 +511,6 @@ WebVR support available on all platforms from at least one major browser (Vive, 
     <span><em>ISS Maintenance using PRIDE w/ Traclabs</em></span>
 </blockquote>
 
-------
-
-<!-- .slide: data-background="media/img/aframe.jpg" -->
-<div style="background: rgba(32, 32, 32, 0.5);">
-    <h2>Frameworks like AFrame Integrate MR with Everything</h1>
-
-  <div class="captioned-image-row">
-    <div>
-      <img class="plain" data-src="media/img/d3.png">
-      <i>d3.js</i>
-    </div>
-    <div>
-      <img class="plain" data-src="media/img/vue.png">
-      <i>Vue.js</i>
-    </div>
-    <div>
-      <img class="plain" data-src="media/img/react.png">
-      <i>React</i>
-    </div>
-    <div>
-      <img class="plain" data-src="media/img/redux.png">
-      <i>Redux</i>
-    </div>
-    <div>
-      <img class="plain" data-src="media/img/jquery.png">
-      <i>jQuery</i>
-    </div>
-    <div>
-      <img class="plain" data-src="media/img/angular.png">
-      <i>Angular</i>
-    </div>
-  </div>
-</div>
 
 ------
 <!-- .slide: data-state="xrslide vrslide" -->

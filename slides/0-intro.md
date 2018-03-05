@@ -61,3 +61,14 @@
 ------
 <!-- .slide: data-background="resources/textures/collaborative-ar.png"  -->
 
+------
+<!-- .slide: data-background="resources/textures/terminator.png" -->
+<blockquote style="background: rgba(32, 32, 32, 0.5);">
+<h1>Constrained by Knowlege of the World Realive to Viewer</h1>
+
+Can only augment <span class="green">what we know</span>
+<p></p>
+and
+<p></p>
+Only need to know <span class="green">relative to viewer</span>
+</blockquote>

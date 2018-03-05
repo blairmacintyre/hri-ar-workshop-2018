@@ -25,6 +25,14 @@ Reasoning about Spatial Uncertainty for AR, Planning
 
 Collaboration Simon Julier @ ONR (now UCL)
 
+
+------
+<!-- .slide: data-background="resources/textures/nasa-mars-vision-2004.png" -->
+
+------
+<!-- .slide: data-background="resources/textures/nasa-mars-artist-2004.png" -->
+
+
 ------
 <!-- .slide: data-background="resources/textures/arStudio2.png" -->
 
