@@ -1,7 +1,7 @@
 
 <!-- .slide: data-background="resources/textures/ironman.png" -->
 
-<h2>Potential of the Web as an AR/VR Platform for HRI?</h2>
+<h2>Potential of the Web as <br>an AR/VR Platform for HRI?</h2>
 <br>
 <br>
 <br>
@@ -13,11 +13,12 @@
 ------
 <!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
 
-<h2>Web as an AR/VR platform for HRI and HRI Research</h2>
+<h2>Web as an AR/VR platform for HRI</h2>
 <p>No need for apps</p>
 <p>Leverage web for networking, multiuser, media</p>
 <p>Platform independent, including CV</p>
-<p>Robot platform delivers it's own UI, coupled with it's knowledge of world</p>
+<br>
+<p><em><span class="green">Robot platform delivers it's own UI, coupled with it's knowledge of world</span></em></p>
 
 ------
 

@@ -5,7 +5,22 @@ I'm at mozilla, why?
 
 
 ------
+<!-- .slide: data-background="resources/textures/argonjs-github.png" data-background-size="contain" data-background-repeat="no-repeat" -->
 
+------
+<!-- .slide: data-background="resources/textures/background-radial.jpeg"  -->
+
+<div class="talk-title">
+	<h1>Making the Hidden Visible<br>in a Safe and Secure Way<br>in Highly Distributed Applications</h1>
+    <p class="talk-info">
+		<b><a href="http://blairmacintyre.me">Blair MacIntyre</a></b>
+		<br>
+		Principal Research Scientist, Mozilla <br>
+		Professor, School of Interactive Computing, Georgia Tech<br>
+		@blairmacintyre / bmacintyre@mozilla.com / blair@cc.gatech.edu <br>
+    </p>
+</div>
+------
 <!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
 
 # WebXR 
@@ -340,7 +355,11 @@ WebVR support available on all platforms from at least one major browser (Vive, 
 <p>Enable Web-Based AR Tech: computer vision, sensor fusion, geospatial data, ...</p>
 
 ------
-<!-- .slide: data-background="resources/textures/social-mr-blog-v2-min.gif" -->
+<!-- .slide: data-background="resources/textures/servo.org.png" data-background-size="contain" data-background-repeat="no-repeat" -->
+
+
+------
+<!-- .slide: data-background-video="resources/videos/servo-page-3d.mp4" -->
 <br>
 <br>
 <br>
@@ -352,7 +371,8 @@ WebVR support available on all platforms from at least one major browser (Vive, 
 <br>
 <br>
 <blockquote style="background: rgba(32, 32, 32, 0.5);">
-<h2> Social and Multiuser</h2>
+<h3>Experiment with XR capabilities in Servo</h3>
+<em>2D DOM content in 3D, XR Browser, XR extensions for CV, ... </em>
 </blockquote>
 ------
 <!-- .slide: data-background-video="resources/videos/playcanvas-scene-1080p.mp4" -->
@@ -368,6 +388,23 @@ WebVR support available on all platforms from at least one major browser (Vive, 
 <br>
 <blockquote style="background: rgba(32, 32, 32, 0.5);">
 <h3>High Performance Graphics with WebGL2</h3>
+<em>Playcanvas demo, iMac, Firefox</em>
+</blockquote>
+------
+<!-- .slide: data-background="resources/textures/social-mr-blog-v2-min.gif" -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<blockquote style="background: rgba(32, 32, 32, 0.5);">
+<h3>Social and Multiuser</h3>
+<em>Services to support drop-in multi-user social experiences<br>with voice/avatars/etc</em>
 </blockquote>
 
 ------
@@ -377,8 +414,6 @@ WebVR support available on all platforms from at least one major browser (Vive, 
 <p>Many tools, from the simple to the elaborate</p>
 <p>Mashups may suggest new ways of creating 3D!</p>
 </blockquote>
-<br>
-<br>
 <br>
 <br>
 <br>
