@@ -1,7 +1,7 @@
 
 <!-- .slide: data-background="resources/textures/ironman.png" -->
 
-<h2>Potential of the Web as a Platform for HRI?</h2>
+<h2>Potential of the Web as an AR/VR Platform for HRI?</h2>
 <br>
 <br>
 <br>
@@ -13,7 +13,7 @@
 ------
 <!-- .slide: data-background="resources/textures/background-radial.jpeg" -->
 
-<h2>Web as a platform for HRI and HRI Research</h2>
+<h2>Web as an AR/VR platform for HRI and HRI Research</h2>
 <p>No need for apps</p>
 <p>Leverage web for networking, multiuser, media</p>
 <p>Platform independent, including CV</p>
