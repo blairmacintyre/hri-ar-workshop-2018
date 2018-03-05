@@ -478,5 +478,3 @@ WebVR support available on all platforms from at least one major browser (Vive, 
 <br>
 <br>
 <br>
-
-------
