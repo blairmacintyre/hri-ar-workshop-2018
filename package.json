@@ -5,7 +5,8 @@
   "homepage": "https://blairmacintyre.github.io/hri-ar-workshop-2018",
   "scripts": {
     "starthttp": "grunt serve",
-    "start": "grunt --gruntfile Gruntfile.js serve"
+    "start": "grunt --gruntfile Gruntfile.js serve",
+    "starthttps": "grunt --gruntfile Gruntfile-https.js serve"
   },
   "author": {
     "name": "Blair MacIntyre",
